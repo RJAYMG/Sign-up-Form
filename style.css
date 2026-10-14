@@ -127,21 +127,26 @@ body {
   justify-content: center;
   font-size: 24px;
   color: rgb(50, 50, 50);
-  /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4); */
+  gap: 1rem;
+  #cool-text {
+    padding: 0.6rem 2rem 0rem 2rem;
+    font-weight: 600;
+    font-size: 0.7em;
+    margin-bottom: 0.6rem;
+  }
   #form-title {
     font-weight: 600;
-    font-size: 0.6em;
-    margin-bottom: 0.8rem;
+    font-size: 0.7em;
+    margin-bottom: 0.6rem;
   }
-  p {
+  .inputs p {
     font-size: 0.3em;
     letter-spacing: 1px;
     color: rgb(90, 90, 90);
-    margin-bottom: 1px;
   }
   input {
     font-size: 0.5em;
-    border: 1px solid rgb(222, 220, 220);
+    border: 1px solid #E5E7EB;
     margin-bottom: 1rem;
     border-radius: 2px;
     width: 180px;
@@ -162,4 +167,26 @@ body {
     outline: 1px solid blue;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
   }   
+  button {
+    color: white;
+    background-color: #596D48;
+    border: none;
+  }
+}
+
+.acc {
+  padding: 0rem 2rem 0 2rem;
+  button {
+    font-size: 0.4em;
+    padding: 0.4rem 1.8rem 0.4rem 1.8rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 0.4em;
+    font-weight: 500;
+  }
+  p>span {
+    color: #647b4f;
+  }
 }
