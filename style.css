@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 #title {
   font-family: 'MyCustomFont', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
-  font-size: 3.3rem;
+  font-size: 6rem;
 }
 
 #cred {
@@ -86,8 +86,8 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.500);
-  width: 20rem;
-  margin-top: 6rem;
+  width: 30vw;
+  margin-top: 11rem;
   padding: 0.3rem 0 0.3rem 0;
 }
 
@@ -101,19 +101,19 @@ body {
 
   .title {
     img {
-      width: 3.4rem;
+      width: 6rem;
     }
   }
 }
 
 .row {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .inputs {
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
-  padding: 0.6rem 2rem 0.6rem 2rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .column {
@@ -128,33 +128,32 @@ body {
   justify-content: center;
   font-size: 24px;
   color: rgb(50, 50, 50);
-  gap: 1rem;
+  gap: 2rem;
   #cool-text {
-    padding: 0.6rem 2rem 0rem 2rem;
+    padding: 0rem 2rem 0rem 2rem;
     font-weight: 600;
-    font-size: 0.7em;
-    margin-bottom: 0.6rem;
+    font-size: 1.5rem;
   }
   #form-title {
   font-weight: 600;
-  font-size: 1.2em;        /* was 0.7em, ~29px */
+  font-size: 1.5rem;       
   margin-bottom: 0.6rem;
 }
 
 .inputs p {
-  font-size: 0.55em;       /* was 0.3em, ~13px */
-  letter-spacing: 1px;
+  font-size: 0.55em;     
+  letter-spacing: 2px;
   color: rgb(90, 90, 90);
 }
 
 input {
-  font-size: 0.65em;       /* was 0.5em, ~16px */
-  height: 2.2rem;          /* taller so the bigger text has room */
-  padding-left: 10px;      /* was 6px */
-  border: 1px solid #c9ccd1;  /* darker than #E5E7EB so it's visible */
+  font-size: 0.65em;       
+  height: 2.2rem;          
+  padding-left: 10px;     
+  border: 1px solid #c9ccd1;  
   margin-bottom: 1rem;
-  border-radius: 2px;
-  width: 220px;            /* was 180px, wider for the bigger text */
+  border-radius: 4px;
+  width: 18rem;          
   appearance: none;
 }
   input:focus {
@@ -169,7 +168,7 @@ input {
   }
   :focus-visible {
     outline: 1px solid blue;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
   }   
   button {
     color: white;
@@ -179,16 +178,16 @@ input {
 }
 
 .acc {
-  /* flex: 1; */
   padding: 0rem 2rem 0 2rem;
   button {
-    font-size: 0.4em;
-    padding: 0.4rem 1.8rem 0.4rem 1.8rem;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 800;
+    padding: 0.8rem 3rem 0.8rem 3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
   }
   p {
-    font-size: 0.4em;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   p>span {
